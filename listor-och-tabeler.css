@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+#w{
+    list-style-type: decimal;
+}
+
+#l{
+    list-style-type: square;
+}
+
+table{
+    margin-left: 40%;
+    border: 2px solid hsl(101, 65%, 43%);
+    background-color: hsl(19, 65%, 43%);
+    font-size: 100px;
+    padding: 20px;
+    border-spacing: 20px 0;
+}
+
+tbody tr:nth-child(odd){
+    box-shadow: 2px 2px 2px wheat;
+}
+
+tbody tr:nth-child(even){
+    box-shadow: 2px 2px 2px blanchedalmond;
+}
+tbody tr td:nth-child(odd){
+    border-bottom: 2px solid cyan;
+}
+
+tbody tr td:nth-child(even){
+    border-bottom: 2px solid red;
+}
