@@ -11,12 +11,20 @@ body{
 }
 
 table{
-    margin-left: 40%;
-    border: 2px solid hsl(101, 65%, 43%);
+    border: 10px groove hsl(101, 65%, 43%);
     background-color: hsl(19, 65%, 43%);
     font-size: 100px;
-    padding: 20px;
-    border-spacing: 20px 0;
+    border-spacing: 0;
+    width: 1900px;
+    text-align: left;
+}
+
+thead tr{
+    background-color: black;
+}
+
+thead tr td{
+    padding-left: 100px;
 }
 
 tbody tr:nth-child(odd){
@@ -24,12 +32,18 @@ tbody tr:nth-child(odd){
 }
 
 tbody tr:nth-child(even){
-    box-shadow: 2px 2px 2px blanchedalmond;
+    box-shadow: 2px 2px 2px black;
 }
 tbody tr td:nth-child(odd){
     border-bottom: 2px solid cyan;
+    padding-left: 100px;
 }
 
 tbody tr td:nth-child(even){
     border-bottom: 2px solid red;
+    padding-left: 100px;
+}
+
+tbody tr:hover{
+    background-color: blue;
 }
